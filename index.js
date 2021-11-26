@@ -1,9 +1,6 @@
-import bienvenidos from './PEC2/index'
+import { init } from './src/index';
 
-console.log('Bienvenido a JS para programadores');
+console.log('Bienvenidos a JS para programadores');
 
+init();
 
-
-const serie = [23, 23, 4, 5 ,7];
-
-bienvenidos();
