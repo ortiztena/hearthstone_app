@@ -4,7 +4,7 @@
   "description": "pec2_javascript",
   "main": "index.js",
   "scripts": {
-    "start": "npm run build && node dist/index.js",
+    "start": "npm run build && node index.js",
     "dev": "parcel index.html",
     "build": "parcel build  index.html",
     "test": "jest --passWithNoTests --silent"
